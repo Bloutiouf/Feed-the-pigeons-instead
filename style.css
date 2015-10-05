@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+	image-rendering: pixelated;
+	transform-origin: left bottom;
+	-webkit-transform-origin: left top;
+}
+
+body {
+	background: black;
+	color: black;
+	font-family: 'Press Start 2P', cursive;
+	margin: 0;
+	overflow: hidden;
+}
+
+#game {
+	background: white;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+}
+
+#game * {
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+
+#message {
+	font-size: 32px;
+	padding: 40px;
+	text-align: center;
+	width: 100%;
+}
+
+#message * {
+	position: static;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+#cooldown {
+	background: black;
+	top: auto;
+	left: auto;
+	bottom: 50px;
+	right: 50px;
+	width: 50px;
+	height: 0px;
+}
